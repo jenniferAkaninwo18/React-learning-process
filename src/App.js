@@ -2,9 +2,11 @@ import React from "react";
 import './style.css';
 // import Todo from './component/todo';
 // import Users from './component/Users';
-import Card from './component/Card';
+// import Card from './component/Card';
 // import Carousel from './component/Carousel';
   //  import Joke from './component/Joke';
+   import Food from './component/Food';
+  //  import Questions from './component/Questions';
 
 
 
@@ -60,17 +62,21 @@ function App() {
       />
       </div> */}
       {/* //second Card with top img */}
-      <Card 
+      {/* <Card 
        img="katie-zaferes.png"
        rating="5.0"
        reviewCount={6}
        country="USA"
        title="Life Lessons with Katie Zaferes"
        price={136}
-      />
+      /> */}
         {/* <Todo /> */}
         {/* <Users /> */}
         {/* <Carousel /> */}
+        <Food />
+        {/* <Questions /> */}
+      
+
         </div>
 
   );
